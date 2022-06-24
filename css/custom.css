@@ -4,15 +4,21 @@ html {
 }
 
 body {
-  background: url(../assets/footer-bg.png) no-repeat center bottom;
   padding-bottom: 400px;
+  background: linear-gradient(68.15deg, #4d784e 16.62%, #6ea171 85.61%);
 }
 
 #header {
   width: 100%;
   background-color: transparent;
   transition: background ease-out 0.2s;
+  margin-bottom: 25px;
 }
+
+.navbar-brand > img {
+  width: auto;
+  height: 75px;
+} 
 
 #header.active {
   position: fixed;
@@ -74,4 +80,9 @@ body {
 
 #contato ul li img {
   max-height: 20px;
+}
+
+.img-footer > img {
+  width: auto;
+  height: 150px;
 }
